@@ -61,6 +61,7 @@ test:
   script:
     - echo "Running tests..."
     - test -f "build/info.txt"
+    - cat info.txt
 ```
 
 - Valides en cliquant sur `Commit Changes`
@@ -98,6 +99,7 @@ test:
   script:
     - echo "Running tests..."
     - test -f "build/info.txt"
+    - cat info.txt
 ```
 
 - Valides en cliquant sur `Commit Changes`
@@ -109,36 +111,9 @@ test:
 
 ---
 
-### 6 Ajouter un Job Artefact
+### 6 Corriger le job en echec
 
-Un artefact est un fichier ou un ensemble de fichiers générés par un job (pendant un pipeline CI/CD) et que l’on souhaite conserver, réutiliser ou partager avec d’autres jobs.
-
-- Dans le projet à la racine de ton dépôt GitLab, modifies `.gitlab-ci.yml` et colles le contenu suivant :
-
-```yaml
-stages:
-  - build
-  - test
-
-build:
-  image: alpine
-  stage: build
-  script:
-    - echo "Compilation en cours..."
-    - mkdir build
-    - echo "Ceci est un fichier de build." > build/info.txt
-  artifacts:
-    paths:
-      - build/
-
-test:
-  image: alpine
-  stage: test
-  script:
-    - echo "Running tests..."
-    - test -f "build/info.txt"
-```
-
+- Dans le projet à la racine de ton dépôt GitLab, modifies `.gitlab-ci.yml` afin de corriger le job en echec. 
 - Valides en cliquant sur `Commit Changes`
 - Observes les jobs et cliques dessus pour voir les détails d'exécution et les logs.
 
