@@ -16,7 +16,7 @@ mkdir projet-demo && cd projet-demo
 ```
 Initialises le dépôt git :
 ```bash
-git init -M main
+git init
 ```
 Verifies l'etat des fichiers :
 

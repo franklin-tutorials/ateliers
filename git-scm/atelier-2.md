@@ -34,9 +34,6 @@
 git remote add origin https://gitlab.com/ton-compte/projet-demo-gitlab.git
 ```
 - Envoyes ton premier commit sur GitLab
-```bash
-git branch -M main
-```
 
 ```bash
 git push -u origin main

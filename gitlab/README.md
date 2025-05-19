@@ -22,6 +22,15 @@
 
 ---
 
+## Atelier 2 : CI/CD avec GitLab 
+
+## 🎯 Objectifs
+Mettre en place un pipeline d'intégration continu / de livraison et déploiement continu d’un projet Node.js.
+
+➡️ A toi de jouer, cliques [ici](atelier-2.md) !
+
+---
+
 ## 📚 Pour aller plus loin
 
 - [Documentation GitLab](https://docs.gitlab.com/)
