@@ -47,15 +47,17 @@ Resultat attendu :
 
 ### 7 Ajoute une étape de build et de push de l’image Docker vers le GitLab Container Registry.
 
-### 8 Déploie cluster kubernetes k3s :
+### 8 Ajoute une analyse de sécurité d’image Docker avec Trivy dans `.gitlab-ci.yml`.
+
+### 9 Déploie cluster kubernetes k3s :
 
 **[https://github.com/franklin-tutorials/devops/blob/main/k3s/README.md](https://github.com/franklin-tutorials/devops/blob/main/k3s/README.md)**
 
-### 9 Integre cluster kubernetes avec [GitLab](https://docs.gitlab.com/user/clusters/agent/)
+### 10 Integre cluster kubernetes avec [GitLab](https://docs.gitlab.com/user/clusters/agent/)
 
-### 10 Ajoute un job de déploiement dans `.gitlab-ci.yml`.
+### 11 Ajoute un job de déploiement dans `.gitlab-ci.yml`.
 
-### 11 Assure toi que le CI/CD de l'application quiz-app fonctionne correctement.
+### 12 Assure toi que le CI/CD de l'application quiz-app fonctionne correctement.
 
 ---
 
